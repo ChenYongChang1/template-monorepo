@@ -1,0 +1,32 @@
+{
+  "name": "@dd/main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "types": "dist/main.d.ts",
+  "buildOptions": {
+    "path": "./dist/main.esm-bundler.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/main.d.ts",
+      "import": "./dist/main.esm-bundler.js"
+    },
+    "./shared": {
+      "types": "./dist/shared.d.ts",
+      "import": "./dist/shared.esm-bundler.js"
+    },
+    "./components": {
+      "types": "./dist/components.d.ts",
+      "import": "./dist/components.esm-bundler.js"
+    }
+  },
+  "scripts": {},
+  "keywords": [],
+  "dependencies": {
+    "@dd/shared": "workspace:^",
+    "@dd/components": "workspace:^"
+  },
+  "author": "",
+  "license": "ISC"
+}

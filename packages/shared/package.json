@@ -1,0 +1,17 @@
+{
+  "name": "@dd/shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "types": "dist/shared.d.ts",
+  "buildOptions": {
+    "path": "./dist/shared.esm-bundler.js"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash-es": "^4.17.21"
+  }
+}

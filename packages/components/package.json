@@ -1,0 +1,14 @@
+{
+  "name": "@dd/components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.ts",
+  "types": "dist/components.d.ts",
+  "buildOptions": {
+    "path": "./dist/components.esm-bundler.js"
+  },
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
